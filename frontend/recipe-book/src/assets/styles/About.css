@@ -1,0 +1,11 @@
+/* src/styles/Home.css */
+.about-container {
+  padding: 20px;
+  text-align: center;
+  color: #f0f0f0; /* Use a light color to ensure readability on dark background */
+}
+
+/* Specific text styles for this component */
+.about-title {
+  color: #e0e0e0; /* Example text color for headings */
+}

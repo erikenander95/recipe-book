@@ -1,0 +1,6 @@
+/* src/components/RecipeIngredients.css */
+.recipe-ingredients {
+  list-style-type: disc;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
