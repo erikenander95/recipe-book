@@ -1,6 +1,7 @@
-/* src/components/RecipeIngredients.css */
+/* src/assets/styles/RecipeIngredients.css */
 .recipe-ingredients {
-  list-style-type: disc;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+  background-color: rgb(48, 48, 48);
+  border: 1px solid rgb(40, 40, 40);
+  padding: 10px;
+  margin: 10px 0;
 }

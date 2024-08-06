@@ -1,5 +1,7 @@
-/* src/components/RecipeInstructions.css */
+/* src/assets/styles/RecipeInstructions.css */
 .recipe-instructions {
-  list-style-type: decimal;
-  margin-left: 1rem;
+  background-color: lightcoral;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px 0;
 }

@@ -1,6 +1,7 @@
 // src/App.jsx
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
+import HomePage from "./components/Home/HomePage"; // Correct path
+
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
@@ -13,7 +14,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} /> {/* Updated route */}
           <Route path="/Contact" element={<Contact />} />
           <Route path="/About" element={<About />} />
         </Routes>

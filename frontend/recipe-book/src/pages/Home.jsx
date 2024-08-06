@@ -1,12 +1,16 @@
 // src/pages/Home.jsx
-import "../assets/styles/Home.css"; // Correct path to Home.css
-import RecipeBox from "../components/RecipeBox/RecipeBox";
+
+import "../assets/styles/Home.css"; // Ensure this path is correct
+import FeaturedRecipes from "../components/Home/FeaturedRecipes";
+import SearchBar from "../components/Home/SearchBar";
+import WelcomeMessage from "../components/Home/WelcomeMessage";
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <h1>Welcome to the Home Page</h1>
-      <RecipeBox />
+    <div className="home-page">
+      <WelcomeMessage />
+      <SearchBar />
+      <FeaturedRecipes />
     </div>
   );
 };

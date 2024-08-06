@@ -1,5 +1,7 @@
-/* src/components/RecipeTitle.css */
+/* src/assets/styles/RecipeTitle.css */
 .recipe-title {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  background-color: lightblue;
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 10px 0;
 }

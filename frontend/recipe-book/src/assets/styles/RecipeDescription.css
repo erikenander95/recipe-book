@@ -1,5 +1,7 @@
-/* src/components/RecipeDescription.css */
+/* src/assets/styles/RecipeDescription.css */
 .recipe-description {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  background-color: lightgreen;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px 0;
 }

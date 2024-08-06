@@ -1,5 +1,5 @@
 /* src/assets/styles/RecipeBox.css */
-.recipe-box {
+.home-page {
   width: 90%; /* Set the width to a percentage */
   max-width: 600px; /* Set a max-width to prevent it from getting too wide */
   margin: 20px auto; /* Center the box horizontally and add vertical margin */
@@ -12,14 +12,14 @@
 
 /* Add media queries for different screen sizes */
 @media (max-width: 768px) {
-  .recipe-box {
+  .home-page {
     width: 95%; /* Increase the width for smaller screens */
     padding: 15px;
   }
 }
 
 @media (max-width: 480px) {
-  .recipe-box {
+  .home-page {
     width: 100%; /* Make the box full width for very small screens */
     padding: 10px;
   }
