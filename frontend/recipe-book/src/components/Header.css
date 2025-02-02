@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Places items at the left and right edges */
+  align-items: center; /* Centers items vertically */
+  padding: 10px 20px; /* Adjusts spacing around the items */
+  background-color: #f1e1c4; /* Optional background color */
+  height: 60px; /* Adjust height as needed */
+}
+
+.header i {
+  font-size: 24px; /* Adjust icon size */
+  cursor: pointer; /* Makes icons clickable */
+}
+
+h1 {
+  font-size: 24px; /* Adjust font size of the title */
+  margin: 0; /* Removes default margin */
+  text-align: center; /* Center the text */
+}
